@@ -23,6 +23,9 @@ tr.border-bottom td {
   align-items: center;
   gap: 20px;
   color: white;
+  border: 3px solid gold;
+  width: 90%;
+  margin: auto;
 }
 
 #images{

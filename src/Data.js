@@ -14,8 +14,8 @@ const Data = ({ coin }) => {
       <td>{coin.symbol.toUpperCase()}</td>
       <td>${coin.current_price}</td>
       <td>${coin.total_volume}</td>
-      <td className={color}>${(coin.price_change_percentage_24h).toFixed(2)}%</td>
-      <td>mkt cap: $${coin.market_cap}</td>
+      <td className={color}>{(coin.price_change_percentage_24h).toFixed(2)}%</td>
+      <td>Mkt Cap: ${coin.market_cap}</td>
     </tr>
   );
 };
